@@ -6,7 +6,7 @@ const LocationDisplay  =()=>
     let x=useLocation()
     console.log(x.pathname);
     return(
-        <p >{x.pathname}</p>
+        <p data-testid="location-display">{x.pathname}</p>
     )
 }
 export default LocationDisplay;

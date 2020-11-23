@@ -30,7 +30,7 @@ class App extends Component {
                     </Route>
                    <Route exact path='/about' component={About}>                      
                    </Route>
-                   <Route path="*" component={Error}>
+                   <Route component={Error}>
                     </Route>
                
             </Switch>
