@@ -4,6 +4,7 @@ import {BrowserRouter,Link,Route,Switch,useLocation} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import LocationDisplay from './LocationDisplay';
+import Error from './Error';
 import '../styles/App.css';
 
 class App extends Component {
@@ -29,9 +30,10 @@ class App extends Component {
                     </Route>
                    <Route exact path='/about' component={About}>                      
                    </Route>
-                   <Route path="*" component={Home}>
+                   <Route path="*" component={Error}>
                     </Route>
-               </Switch>
+               
+            </Switch>
                
 
                
