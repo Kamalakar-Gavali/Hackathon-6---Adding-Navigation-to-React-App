@@ -17,11 +17,11 @@ class App extends Component {
     render() {
 
         return(
-            <BrowserRouter>
+            
             <div id="main">
                {/* Do not remove the main div */}
                
-               
+               <BrowserRouter>   
                <a><Link to='/'>Home</Link></a>
                <a><Link to="/about">About</Link></a>
                  
@@ -36,9 +36,9 @@ class App extends Component {
             </Switch>
                
 
-               
+            </BrowserRouter>   
             </div>
-            </BrowserRouter>
+            
         )
     }
 }
