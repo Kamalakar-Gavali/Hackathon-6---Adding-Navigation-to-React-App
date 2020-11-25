@@ -4,7 +4,7 @@ import LocationDisplay from './LocationDisplay'
 const Error=()=>{
     
         return (
-            <>No match<LocationDisplay/></>
+            <>No match</>
         );
     
 }

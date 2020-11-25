@@ -24,7 +24,7 @@ class App extends Component {
                <BrowserRouter>   
                <a><Link to='/'>Home</Link></a>
                <a><Link to="/about">About</Link></a>
-                 
+               <LocationDisplay/>
                <Switch>
                     <Route exact path="/" component={Home}> 
                     </Route>

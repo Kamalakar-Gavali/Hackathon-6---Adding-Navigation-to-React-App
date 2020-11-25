@@ -4,7 +4,7 @@ import LocationDisplay from './LocationDisplay'
 const About=()=>{
     
         return (
-            <>You are on the about page <LocationDisplay/></>
+            <>You are on the about page </>
         );
     
 }

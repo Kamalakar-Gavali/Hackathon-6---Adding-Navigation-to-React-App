@@ -5,7 +5,7 @@ const Home=()=>{
 
     
         return(
-            <> You are home <LocationDisplay/></>
+            <> You are home </>
          );
     
 }
